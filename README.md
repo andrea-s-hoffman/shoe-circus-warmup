@@ -8,7 +8,7 @@ You have been provided with an HTML file linked to `warmup.js`. All your work wi
 ### Open Modal
 
 3. **Listen for Cart Icon Click**: Use a click event listener for the cart icon in the header.
-4. **Show Modal**: When the cart icon is clicked, display the modal. Currently, it is hidden using Bootstrap's `modal` class (`display: none;`).
+4. **Show Modal**: When the cart icon is clicked, display the modal. Currently, it is hidden using Bootstrap's `modal` class (this class includes `display: none;`).
    - _Hint_: There is a relevant CSS rule at the top of your CSS file.
 
 ### Show Cart Items in Modal
@@ -16,6 +16,7 @@ You have been provided with an HTML file linked to `warmup.js`. All your work wi
 5. **Display Added Items**: For each item added to the cart, create a new list item (`<li>`) in the modal's unordered list (`<ul>`). Refer to the commented-out code within the `<ul>` for guidance on how to structure these items.
 6. **Update Cart Totals**: Update the subtotal, tax, and total amounts displayed in the modal to reflect the items in the cart.
 
-### Bonus Challenge
+### Bonus Challenges
 
+- **Delete Cart Item**: Allow the user to remove an item from the cart. Ensure that the number icon in the header and totals are updated accordingly.
 - **Single List Item per Product Type**: Ensure only one list item is shown per product type in the cart. If an additional item of the same type is added, update the quantity displayed in the existing list item.
