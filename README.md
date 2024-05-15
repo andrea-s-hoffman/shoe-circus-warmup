@@ -4,7 +4,7 @@ You have been provided with an HTML file linked to `warmup.js`. All your work wi
 
 1. **Listen for Button Click**: Use a click event listener for the 'Add to Cart' button.
 2. **Increment Cart Icon**: When the button is clicked, increment the number icon next to the cart icon in the header.
-   - _Hint_: There is a data-index attribute on this button. Also utilize the cart variable in warmup.js.
+   - _Hint_: There is a data-index attribute on this button. Also utilize the `cart` variable in warmup.js.
 
 ### Open Modal
 
