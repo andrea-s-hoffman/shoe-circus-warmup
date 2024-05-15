@@ -3,8 +3,11 @@ import { buildProducts } from "./app/buildProducts.js";
 
 // do your work in this file
 
+// number icon in header
 const numItemsInCart = document.querySelector("#num-of-items");
+// ul in modal for cart items
 const cartItemsList = document.querySelector("ul#cart-items");
+// modal container
 const modal = document.querySelector(".modal");
 
 const cart = [];
