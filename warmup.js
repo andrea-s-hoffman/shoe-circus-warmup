@@ -1,5 +1,5 @@
-import { products } from "./products.js";
-import { buildProducts } from "./buildProducts.js";
+import { products } from "./app/products.js";
+import { buildProducts } from "./app/buildProducts.js";
 
 // do your work in this file
 
