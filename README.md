@@ -22,7 +22,7 @@ You have been provided with an HTML file linked to `warmup.js`. All your work wi
 - **Delete Cart Item**: Allow the user to remove an item from the cart. Ensure that the number icon in the header and totals are updated accordingly.
 - **Single List Item per Product Type**: Ensure only one list item is shown per product type in the cart. If an additional item of the same type is added, update the quantity displayed in the existing list item.
 
-### Other Ideas to Explore
+#### Other Ideas to Explore
 
 - **Dark Mode**: Allow the user to select light/dark mode. Store this in local storage.
 - **Adjust Modal if Cart is Empty**: Implement a message or functionality so that the user sees a message or isn't able to open the cart when empty.
