@@ -33,3 +33,4 @@ You have been provided with an HTML file linked to `warmup.js`. All your work wi
 - **User Log In**: Allow the user to "log in" with a username and password. Store this in local storage.
 - **Checkout Feature**: Implement a fake checkout that asks for the users shipping and billing information. Produce a reciept for them.
 - **Warehouse Quantity**: Include a quantity on the products array and functionality so that they might "sell out" if too many of one item are added to the user's cart.
+- ...find ways to break it!!! And then fix those bugs.
