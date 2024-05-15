@@ -24,6 +24,11 @@
   z-index: 99;
 }
 
+.modal-cart ul {
+  overflow-y: scroll;
+  max-height: 50vh;
+}
+
 .modal-cart .total-div {
   border-bottom: 1px solid #dee2e6;
 }
