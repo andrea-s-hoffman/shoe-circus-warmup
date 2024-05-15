@@ -19,7 +19,7 @@ const buildCartItems = () => {
 
 const updateUI = () => {
   buildCartItems();
-  // update items in cart icon (in header)
+  // update number in cart icon (in header)
   // update subtotal paragraph
   // update tax paragraph
   // update total paragraph
