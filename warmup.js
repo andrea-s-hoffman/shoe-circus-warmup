@@ -27,8 +27,9 @@ const updateUI = () => {
 
 const clickHandler = (e) => {
   console.log(e.target);
-  // add to cart button
-  // show cart icon
+  // add to cart button --> add items to cart
+  // number icon in header --> open modal
+  // close btn in model --> close modal
 };
 
 document.addEventListener("DOMContentLoaded", () => {
