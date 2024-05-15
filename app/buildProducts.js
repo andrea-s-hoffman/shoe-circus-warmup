@@ -1,7 +1,7 @@
 const productsList = document.querySelector(".container ul");
 
 export const buildProducts = (products) => {
-  products.forEach((item) => {
+  products.forEach((item, index) => {
     const outerDiv = document.createElement("div");
     const newLi = document.createElement("li");
     const newH3 = document.createElement("h3");
@@ -15,12 +15,13 @@ export const buildProducts = (products) => {
     cardBody.classList.add("card-body");
     newH3.classList.add("card-title");
     newPrice.classList.add("card-text");
-    addToCartBtn.classList.add("btn", "btn-primary");
+    addToCartBtn.classList.add("btn", "btn-primary", "add-to-cart");
     newH3.textContent = item.name;
     newPrice.textContent = "$" + item.price.toFixed(2);
     newImg.src = item.image;
     newImg.alt = item.name;
     addToCartBtn.textContent = "Add to cart";
+    addToCartBtn.setAttribute("data-index", index);
     cardBody.append(newH3, newPrice, addToCartBtn);
     newLi.append(newImg, cardBody);
     outerDiv.append(newLi);
